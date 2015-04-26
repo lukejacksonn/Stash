@@ -1,3 +1,9 @@
+/*
+Stash.js - http://lukejacksonn.com/Stash
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+Copyright (c) 2015 Luke Jackson
+*/
+
 (function($){
 
     jQuery.fn.stash = function (name, type, fn) {
