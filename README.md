@@ -1,9 +1,10 @@
 # Stash.js
-A jQuery plugin that can instigate application/octet-stream downloads of local content
+A jQuery plugin that can instigate application/octet-stream downloads of dom elements.
 
 ```javascript
-  $(this).stash('codepen','html', function (contents) {    
-    console.log('About to download contents of $(this) as codepen.html");
+  <textarea>Hello World</textarea>
+  $('textarea').stash('example','txt', function (contents) {    
+    console.log('About to download contents of textarea as example.txt');
     return contents;
   });
 ```
